@@ -26,7 +26,7 @@ public class Hippodrome {
     }
 
     public void run() throws InterruptedException {
-        for (int i = 1; i < 101; i++) {
+        for (int i = 1; i < 16; i++) {
             move();
             print();
             Thread.sleep(3000);
